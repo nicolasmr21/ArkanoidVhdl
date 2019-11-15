@@ -1,0 +1,9 @@
+[Inputs]
+rotary_a
+rotary_b
+rotary_press
+clk
+[Outputs]
+vista
+=position_x[9:0]=
+[BiDir]

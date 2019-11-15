@@ -1,0 +1,12 @@
+EN vga_sync NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" sub00/vhpl02 1573694977
+EN vga_image_tets NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" sub00/vhpl10 1573694985
+AR clk_div_25mhz behavioral "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" sub00/vhpl01 1573694976
+EN left_right_leds NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" sub00/vhpl08 1573694983
+AR vga_sync a "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" sub00/vhpl03 1573694978
+EN clk_div_25mhz NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" sub00/vhpl00 1573694975
+AR mymemory mymemory_a "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" sub00/vhpl05 1573694980
+AR reader behavioral "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" sub00/vhpl07 1573694982
+AR left_right_leds behavioral "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" sub00/vhpl09 1573694984
+AR vga_image_tets behavioral "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" sub00/vhpl11 1573694986
+EN reader NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" sub00/vhpl06 1573694981
+EN mymemory NULL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" sub00/vhpl04 1573694979

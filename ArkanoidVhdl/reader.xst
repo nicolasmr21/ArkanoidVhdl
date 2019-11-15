@@ -1,0 +1,5 @@
+set -tmpdir "G:/VGA_image/xst/projnav.tmp"
+set -xsthdpdir "G:/VGA_image/xst"
+elaborate
+-ifn reader.prj
+-ifmt mixed

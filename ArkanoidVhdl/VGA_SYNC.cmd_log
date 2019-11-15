@@ -1,0 +1,8 @@
+vhdtdtfi -lib work VGA_SYNC.VHD -prj VGA_image -o VGA_SYNC.spl -module VGA_SYNC -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_SYNC.spl W:/Semana_13/VGA_image/VGA_SYNC.sym 
+vhdtdtfi -lib work VGA_SYNC.VHD -prj VGA_image -o VGA_SYNC.spl -module VGA_SYNC -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_SYNC.spl G:/VGA_image/VGA_SYNC.sym 
+vhdtdtfi -lib work VGA_SYNC.VHD -prj VGA_image -o VGA_SYNC.spl -module VGA_SYNC -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_SYNC.spl G:/VGA_image/VGA_SYNC.sym 
+vhdtdtfi -lib work VGA_SYNC.VHD -prj VGA_image -o VGA_SYNC.spl -module VGA_SYNC -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_SYNC.spl G:/VGA_image/VGA_SYNC.sym 

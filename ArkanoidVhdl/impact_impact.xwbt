@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=G:\VGA_image\impact.xsl
+OUTFILE=G:\VGA_image\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=G:\VGA_image
+LICENSE=iMPACT
+USER_INFO=iMPACT

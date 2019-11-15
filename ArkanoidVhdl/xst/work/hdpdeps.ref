@@ -1,0 +1,54 @@
+V3 30
+FL C:/Users/94541009/Desktop/VGA_image/Clk_div_25MHz.vhd 2012/10/09.23:07:00 P.20131013
+FL C:/Users/94541009/Desktop/VGA_image/ipcore_dir/mymemory.vhd 2012/10/23.11:08:24 P.20131013
+FL C:/Users/94541009/Desktop/VGA_image/left_right_leds.vhd 2012/10/23.18:53:02 P.20131013
+FL C:/Users/94541009/Desktop/VGA_image/reader.vhd 2012/10/24.11:44:38 P.20131013
+FL C:/Users/94541009/Desktop/VGA_image/VGA_image_tets.vhf 2019/05/13.20:50:59 P.20131013
+FL C:/Users/94541009/Desktop/VGA_image/VGA_SYNC.VHD 2012/10/09.19:32:00 P.20131013
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" 2012/10/09.23:07:00 P.20131013
+EN work/Clk_div_25MHz 1573694975 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Clk_div_25MHz/Behavioral 1573694976 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" \
+      EN work/Clk_div_25MHz 1573694975
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" 2012/10/23.11:08:24 P.20131013
+EN work/mymemory 1573694979 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mymemory/mymemory_a 1573694980 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" \
+      EN work/mymemory 1573694979
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" 2012/10/23.18:53:02 P.20131013
+EN work/left_right_leds 1573694983 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/left_right_leds/Behavioral 1573694984 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" \
+      EN work/left_right_leds 1573694983
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" 2019/11/13.20:29:30 P.20131013
+EN work/reader 1573694981 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reader/Behavioral 1573694982 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" \
+      EN work/reader 1573694981
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" 2019/11/13.16:56:23 P.20131013
+EN work/VGA_image_tets 1573694985 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/VGA_image_tets/BEHAVIORAL 1573694986 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" \
+      EN work/VGA_image_tets 1573694985 CP Clk_div_25MHz CP VGA_SYNC CP mymemory \
+      CP reader CP left_right_leds
+FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" 2012/10/09.19:32:00 P.20131013
+EN work/VGA_SYNC 1573694977 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/VGA_SYNC/a 1573694978 \
+      FL "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" \
+      EN work/VGA_SYNC 1573694977

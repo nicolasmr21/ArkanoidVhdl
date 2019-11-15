@@ -1,0 +1,16 @@
+[Inputs]
+clk
+reset
+direction
+fade
+fading
+=row[9:0]=
+=col[9:0]=
+=datain[2:0]=
+=pila_pos_x[9:0]=
+[Outputs]
+R
+G
+B
+=addr[14:0]=
+[BiDir]

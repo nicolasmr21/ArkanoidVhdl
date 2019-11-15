@@ -1,0 +1,10 @@
+vhdtdtfi -lib work left_right_leds.vhd -prj VGA_image -o left_right_leds.spl -module left_right_leds -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e left_right_leds.spl G:/VGA_image/left_right_leds.sym 
+vhdtdtfi -lib work left_right_leds.vhd -prj VGA_image -o left_right_leds.spl -module left_right_leds -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e left_right_leds.spl G:/VGA_image/left_right_leds.sym 
+vhdtdtfi -lib work left_right_leds.vhd -prj VGA_image -o left_right_leds.spl -module left_right_leds -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e left_right_leds.spl G:/VGA_image/left_right_leds.sym 
+vhdtdtfi -lib work left_right_leds.vhd -prj VGA_image -o left_right_leds.spl -module left_right_leds -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e left_right_leds.spl G:/VGA_image/left_right_leds.sym 
+vhdtdtfi -lib work left_right_leds.vhd -prj VGA_image -o left_right_leds.spl -module left_right_leds -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e left_right_leds.spl G:/VGA_image/left_right_leds.sym 

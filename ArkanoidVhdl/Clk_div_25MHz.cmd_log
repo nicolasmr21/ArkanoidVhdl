@@ -1,0 +1,10 @@
+vhdtdtfi -lib work Clk_div_25MHz.vhd -prj VGA_image -o Clk_div_25MHz.spl -module Clk_div_25MHz -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Clk_div_25MHz.spl W:/Semana_13/VGA_image/Clk_div_25MHz.sym 
+vhdtdtfi -lib work Clk_div_25MHz.vhd -prj VGA_image -o Clk_div_25MHz.spl -module Clk_div_25MHz -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Clk_div_25MHz.spl W:/Semana_13/VGA_image/Clk_div_25MHz.sym 
+vhdtdtfi -lib work Clk_div_25MHz.vhd -prj VGA_image -o Clk_div_25MHz.spl -module Clk_div_25MHz -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Clk_div_25MHz.spl G:/VGA_image/Clk_div_25MHz.sym 
+vhdtdtfi -lib work Clk_div_25MHz.vhd -prj VGA_image -o Clk_div_25MHz.spl -module Clk_div_25MHz -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Clk_div_25MHz.spl G:/VGA_image/Clk_div_25MHz.sym 
+vhdtdtfi -lib work Clk_div_25MHz.vhd -prj VGA_image -o Clk_div_25MHz.spl -module Clk_div_25MHz -template C:/Xilinx/12.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Clk_div_25MHz.spl G:/VGA_image/Clk_div_25MHz.sym 

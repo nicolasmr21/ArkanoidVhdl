@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\VGA_image_tets.ncd
+OUTFILE=C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\VGA_image_tets.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\nicol\Downloads\VGA_image (2)\VGA_image
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,731 @@
+xst -intstyle ise -ifn "W:/Semana_13/VGA_image/VGA_image_tets.xst" -ofn "W:/Semana_13/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc W:/Semana_13/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "W:/Semana_13/VGA_image/VGA_image_tets.xst" -ofn "W:/Semana_13/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc W:/Semana_13/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "W:/Semana_13/VGA_image/VGA_image_tets.xst" -ofn "W:/Semana_13/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc W:/Semana_13/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "W:/Semana_13/VGA_image/VGA_image_tets.xst" -ofn "W:/Semana_13/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc W:/Semana_13/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "H:/VGA_image/VGA_image_tets.xst" -ofn "H:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "H:/VGA_image/VGA_image_tets.xst" -ofn "H:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "G:/VGA_image/VGA_image_tets.xst" -ofn "G:/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc G:/Lab_VGA_GenImage/spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/94541009/Desktop/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/94541009/Desktop/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 VGA_image_tets.ngc VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 
+xst -intstyle ise -ifn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.xst" -ofn "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc spartan3e.ucf -p xc3s500e-fg320-4 "VGA_image_tets.ngc" VGA_image_tets.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o VGA_image_tets_map.ncd VGA_image_tets.ngd VGA_image_tets.pcf 
+par -w -intstyle ise -ol high -t 1 VGA_image_tets_map.ncd VGA_image_tets.ncd VGA_image_tets.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml VGA_image_tets.twx VGA_image_tets.ncd -o VGA_image_tets.twr VGA_image_tets.pcf -ucf spartan3e.ucf 
+bitgen -intstyle ise -f VGA_image_tets.ut VGA_image_tets.ncd 

@@ -1,0 +1,6 @@
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\VGA_SYNC.VHD"
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\reader.vhd"
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\left_right_leds.vhd"
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\ipcore_dir\mymemory.vhd"
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\Clk_div_25MHz.vhd"
+vhdl work "C:\Users\nicol\Downloads\VGA_image (2)\VGA_image\VGA_image_tets.vhf"

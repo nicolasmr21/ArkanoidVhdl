@@ -1,0 +1,612 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: VGA_image_tets.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VGA_image_tets.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VGA_image_tets"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : VGA_image_tets
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd" in Library work.
+Architecture behavioral of Entity clk_div_25mhz is up to date.
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD" in Library work.
+Architecture a of Entity vga_sync is up to date.
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/ipcore_dir/mymemory.vhd" in Library work.
+Architecture mymemory_a of Entity mymemory is up to date.
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd" in Library work.
+Entity <reader> compiled.
+Entity <reader> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" in Library work.
+Architecture behavioral of Entity left_right_leds is up to date.
+Compiling vhdl file "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" in Library work.
+Architecture behavioral of Entity vga_image_tets is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VGA_image_tets> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clk_div_25MHz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA_SYNC> in library <work> (architecture <a>).
+
+Analyzing hierarchy for entity <reader> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <left_right_leds> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VGA_image_tets> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf" line 122: Instantiating black box module <mymemory>.
+Entity <VGA_image_tets> analyzed. Unit <VGA_image_tets> generated.
+
+Analyzing Entity <Clk_div_25MHz> in library <work> (Architecture <behavioral>).
+Entity <Clk_div_25MHz> analyzed. Unit <Clk_div_25MHz> generated.
+
+Analyzing Entity <VGA_SYNC> in library <work> (Architecture <a>).
+Entity <VGA_SYNC> analyzed. Unit <VGA_SYNC> generated.
+
+Analyzing Entity <reader> in library <work> (Architecture <behavioral>).
+Entity <reader> analyzed. Unit <reader> generated.
+
+Analyzing Entity <left_right_leds> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd" line 130: Mux is complete : default of case is discarded
+Entity <left_right_leds> analyzed. Unit <left_right_leds> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clk_div_25MHz>.
+    Related source file is "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/Clk_div_25MHz.vhd".
+    Found 1-bit register for signal <clk_25>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <Clk_div_25MHz> synthesized.
+
+
+Synthesizing Unit <VGA_SYNC>.
+    Related source file is "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_SYNC.VHD".
+    Found 1-bit register for signal <vert_sync_out>.
+    Found 1-bit register for signal <blue_out>.
+    Found 10-bit register for signal <pixel_row>.
+    Found 1-bit register for signal <red_out>.
+    Found 10-bit register for signal <pixel_column>.
+    Found 1-bit register for signal <horiz_sync_out>.
+    Found 1-bit register for signal <green_out>.
+    Found 10-bit up counter for signal <h_count>.
+    Found 1-bit register for signal <horiz_sync>.
+    Found 11-bit comparator greatequal for signal <horiz_sync$cmp_ge0000> created at line 40.
+    Found 11-bit comparator lessequal for signal <horiz_sync$cmp_le0000> created at line 40.
+    Found 11-bit comparator lessequal for signal <pixel_column$cmp_le0000> created at line 65.
+    Found 11-bit comparator lessequal for signal <pixel_row$cmp_le0000> created at line 72.
+    Found 10-bit up counter for signal <v_count>.
+    Found 11-bit comparator greatequal for signal <v_count$cmp_ge0000> created at line 51.
+    Found 11-bit comparator greatequal for signal <v_count$cmp_ge0001> created at line 51.
+    Found 1-bit register for signal <vert_sync>.
+    Found 11-bit comparator greatequal for signal <vert_sync$cmp_ge0000> created at line 58.
+    Found 11-bit comparator lessequal for signal <vert_sync$cmp_le0000> created at line 58.
+    Found 1-bit register for signal <video_on_h>.
+    Found 1-bit register for signal <video_on_v>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <VGA_SYNC> synthesized.
+
+
+Synthesizing Unit <reader>.
+    Related source file is "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/reader.vhd".
+WARNING:Xst:647 - Input <direction> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <datain> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <fading> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <fade> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <addr_normal> is used but never assigned. This sourceless signal will be automatically connected to value 000000000000000.
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Found 1-bit register for signal <b_img>.
+    Found 11-bit comparator greatequal for signal <b_img$cmp_ge0000> created at line 145.
+    Found 11-bit comparator greatequal for signal <b_img$cmp_ge0001> created at line 146.
+    Found 11-bit comparator greatequal for signal <b_img$cmp_ge0002> created at line 148.
+    Found 11-bit comparator lessequal for signal <b_img$cmp_le0000> created at line 145.
+    Found 11-bit comparator lessequal for signal <b_img$cmp_le0001> created at line 146.
+    Found 11-bit comparator lessequal for signal <b_img$cmp_le0002> created at line 148.
+    Found 1-bit register for signal <en_img>.
+    Found 11-bit comparator greatequal for signal <en_img$cmp_ge0000> created at line 127.
+    Found 10-bit comparator greatequal for signal <en_img$cmp_ge0001> created at line 128.
+    Found 11-bit comparator lessequal for signal <en_img$cmp_le0000> created at line 127.
+    Found 10-bit comparator lessequal for signal <en_img$cmp_le0001> created at line 128.
+    Found 1-bit register for signal <g_img>.
+    Found 11-bit comparator greatequal for signal <g_img$cmp_ge0000> created at line 134.
+    Found 11-bit comparator greatequal for signal <g_img$cmp_ge0001> created at line 165.
+    Found 11-bit comparator greatequal for signal <g_img$cmp_ge0002> created at line 166.
+    Found 11-bit comparator greatequal for signal <g_img$cmp_ge0003> created at line 168.
+    Found 11-bit comparator lessequal for signal <g_img$cmp_le0000> created at line 134.
+    Found 11-bit comparator lessequal for signal <g_img$cmp_le0001> created at line 165.
+    Found 11-bit comparator lessequal for signal <g_img$cmp_le0002> created at line 166.
+    Found 11-bit comparator lessequal for signal <g_img$cmp_le0003> created at line 168.
+    Found 1-bit register for signal <r_img>.
+    Found 11-bit comparator greatequal for signal <r_img$cmp_ge0000> created at line 155.
+    Found 11-bit comparator greatequal for signal <r_img$cmp_ge0001> created at line 156.
+    Found 11-bit comparator greatequal for signal <r_img$cmp_ge0002> created at line 158.
+    Found 11-bit comparator lessequal for signal <r_img$cmp_le0000> created at line 155.
+    Found 11-bit comparator lessequal for signal <r_img$cmp_le0001> created at line 156.
+    Found 11-bit comparator lessequal for signal <r_img$cmp_le0002> created at line 158.
+    Found 1-bit register for signal <w_img>.
+    Found 11-bit comparator greatequal for signal <w_img$cmp_ge0000> created at line 179.
+    Found 11-bit comparator lessequal for signal <w_img$cmp_le0000> created at line 177.
+    Found 11-bit comparator lessequal for signal <w_img$cmp_le0001> created at line 187.
+    Found 11-bit comparator lessequal for signal <w_img$cmp_le0002> created at line 188.
+    Found 11-bit comparator lessequal for signal <w_img$cmp_le0003> created at line 178.
+    Found 10-bit register for signal <xbottomBar>.
+    Found 10-bit adder for signal <xbottomBar$add0000> created at line 120.
+    Found 10-bit register for signal <xtopBar>.
+    Found 1-bit register for signal <y_img>.
+    Found 11-bit comparator greatequal for signal <y_img$cmp_ge0000> created at line 135.
+    Found 11-bit comparator greatequal for signal <y_img$cmp_ge0001> created at line 136.
+    Found 11-bit comparator greatequal for signal <y_img$cmp_ge0002> created at line 138.
+    Found 11-bit comparator lessequal for signal <y_img$cmp_le0000> created at line 135.
+    Found 11-bit comparator lessequal for signal <y_img$cmp_le0001> created at line 136.
+    Found 11-bit comparator lessequal for signal <y_img$cmp_le0002> created at line 138.
+    Summary:
+	inferred  29 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  35 Comparator(s).
+Unit <reader> synthesized.
+
+
+Synthesizing Unit <left_right_leds>.
+    Related source file is "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/left_right_leds.vhd".
+WARNING:Xst:646 - Signal <rotary_press_in> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <vista>.
+    Found 10-bit register for signal <position_x>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 10-bit updown accumulator for signal <move_x>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 118.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 118.
+    Found 1-bit register for signal <vista_normal>.
+    Found 10-bit comparator greatequal for signal <vista_normal$cmp_ge0000> created at line 172.
+    Found 11-bit comparator lessequal for signal <vista_normal$cmp_le0000> created at line 178.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred  21 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <left_right_leds> synthesized.
+
+
+Synthesizing Unit <VGA_image_tets>.
+    Related source file is "C:/Users/nicol/Downloads/VGA_image (2)/VGA_image/VGA_image_tets.vhf".
+Unit <VGA_image_tets> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 10-bit adder                                          : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Accumulators                                         : 1
+ 10-bit updown accumulator                             : 1
+# Registers                                            : 34
+ 1-bit register                                        : 28
+ 10-bit register                                       : 5
+ 2-bit register                                        : 1
+# Comparators                                          : 45
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 19
+ 11-bit comparator lessequal                           : 23
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/mymemory.ngc>.
+Loading core <mymemory> for timing and area information for instance <XLXI_4>.
+
+Synthesizing (advanced) Unit <left_right_leds>.
+The following registers are absorbed into accumulator <move_x_ren>: 1 register on signal <rotary_left>.
+Unit <left_right_leds> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 10-bit adder                                          : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Accumulators                                         : 1
+ 10-bit updown accumulator                             : 1
+# Registers                                            : 80
+ Flip-Flops                                            : 80
+# Comparators                                          : 45
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 19
+ 11-bit comparator lessequal                           : 23
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <rotary_left> in Unit <left_right_leds> is equivalent to the following FF/Latch, which will be removed : <name> 
+
+Optimizing unit <VGA_image_tets> ...
+
+Optimizing unit <VGA_SYNC> ...
+
+Optimizing unit <reader> ...
+
+Optimizing unit <left_right_leds> ...
+WARNING:Xst:2677 - Node <XLXI_6/vista> of sequential type is unconnected in block <VGA_image_tets>.
+WARNING:Xst:2677 - Node <XLXI_6/vista_normal> of sequential type is unconnected in block <VGA_image_tets>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VGA_image_tets, actual ratio is 2.
+
+Final Macro Processing ...
+
+Processing Unit <VGA_image_tets> :
+	Found 2-bit shift register for signal <XLXI_6/rotary_in_1>.
+	Found 2-bit shift register for signal <XLXI_6/rotary_in_0>.
+Unit <VGA_image_tets> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 104
+ Flip-Flops                                            : 104
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VGA_image_tets.ngr
+Top Level Output File Name         : VGA_image_tets
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 12
+
+Cell Usage :
+# BELS                             : 302
+#      GND                         : 2
+#      INV                         : 12
+#      LUT1                        : 23
+#      LUT2                        : 47
+#      LUT2_D                      : 2
+#      LUT2_L                      : 5
+#      LUT3                        : 21
+#      LUT3_D                      : 4
+#      LUT3_L                      : 5
+#      LUT4                        : 60
+#      LUT4_D                      : 4
+#      LUT4_L                      : 20
+#      MUXCY                       : 55
+#      MUXF5                       : 1
+#      VCC                         : 2
+#      XORCY                       : 39
+# FlipFlops/Latches                : 107
+#      FD                          : 17
+#      FDC                         : 3
+#      FDCE                        : 6
+#      FDE                         : 52
+#      FDR                         : 19
+#      FDRE                        : 10
+# RAMS                             : 6
+#      RAMB16_S1_S1                : 6
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 3
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      112  out of   4656     2%  
+ Number of Slice Flip Flops:            107  out of   9312     1%  
+ Number of 4 input LUTs:                205  out of   9312     2%  
+    Number used as logic:               203
+    Number used as Shift registers:       2
+ Number of IOs:                          12
+ Number of bonded IOBs:                   9  out of    232     3%  
+ Number of BRAMs:                         6  out of     20    30%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+----------------------------------------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                                                        | Load  |
+-----------------------------------+----------------------------------------------------------------------------------------------+-------+
+XLXI_1/clk_251                     | BUFG                                                                                         | 114   |
+XLXI_4/BU2/dbiterr                 | NONE(XLXI_4/BU2/U0/blk_mem_generator/valid.cstr/ramloop[5].ram.r/s3_init.ram/dpram.dp1x1.ram)| 6     |
+CLK_50MHZ                          | BUFGP                                                                                        | 1     |
+-----------------------------------+----------------------------------------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------+------------------------+-------+
+Control Signal                             | Buffer(FF name)        | Load  |
+-------------------------------------------+------------------------+-------+
+XLXI_5/reset_inv(XLXI_5/reset_inv1_INV_0:O)| NONE(XLXI_5/B)         | 9     |
+-------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.287ns (Maximum Frequency: 159.058MHz)
+   Minimum input arrival time before clock: 2.059ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK_50MHZ'
+  Clock period: 1.949ns (frequency: 513.084MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.949ns (Levels of Logic = 0)
+  Source:            XLXI_1/clk_25 (FF)
+  Destination:       XLXI_1/clk_25 (FF)
+  Source Clock:      CLK_50MHZ rising
+  Destination Clock: CLK_50MHZ rising
+
+  Data Path: XLXI_1/clk_25 to XLXI_1/clk_25
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.447  XLXI_1/clk_25 (XLXI_1/clk_251)
+     FDR:R                     0.911          XLXI_1/clk_25
+    ----------------------------------------
+    Total                      1.949ns (1.502ns logic, 0.447ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/clk_251'
+  Clock period: 6.287ns (frequency: 159.058MHz)
+  Total number of paths / destination ports: 1862 / 195
+-------------------------------------------------------------------------
+Delay:               6.287ns (Levels of Logic = 5)
+  Source:            XLXI_2/pixel_row_4 (FF)
+  Destination:       XLXI_5/w_img (FF)
+  Source Clock:      XLXI_1/clk_251 rising
+  Destination Clock: XLXI_1/clk_251 rising
+
+  Data Path: XLXI_2/pixel_row_4 to XLXI_5/w_img
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.591   0.917  XLXI_2/pixel_row_4 (XLXI_2/pixel_row_4)
+     LUT3:I2->O            1   0.704   0.000  XLXI_5/w_img_mux000311_SW0_G (N41)
+     MUXF5:I1->O           1   0.321   0.424  XLXI_5/w_img_mux000311_SW0 (N8)
+     LUT4:I3->O            1   0.704   0.455  XLXI_5/w_img_mux000362 (XLXI_5/w_img_mux000362)
+     LUT4:I2->O            1   0.704   0.455  XLXI_5/w_img_mux000381 (XLXI_5/w_img_mux000381)
+     LUT4:I2->O            1   0.704   0.000  XLXI_5/w_img_mux0003126 (XLXI_5/w_img_mux0003)
+     FDCE:D                    0.308          XLXI_5/w_img
+    ----------------------------------------
+    Total                      6.287ns (4.036ns logic, 2.251ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/clk_251'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.059ns (Levels of Logic = 1)
+  Source:            ROT_B (PAD)
+  Destination:       XLXI_6/Mshreg_rotary_in_1 (FF)
+  Destination Clock: XLXI_1/clk_251 rising
+
+  Data Path: ROT_B to XLXI_6/Mshreg_rotary_in_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  ROT_B_IBUF (ROT_B_IBUF)
+     SRL16:D                   0.421          XLXI_6/Mshreg_rotary_in_1
+    ----------------------------------------
+    Total                      2.059ns (1.639ns logic, 0.420ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/clk_251'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            XLXI_2/blue_out (FF)
+  Destination:       VGA_BLUE (PAD)
+  Source Clock:      XLXI_1/clk_251 rising
+
+  Data Path: XLXI_2/blue_out to VGA_BLUE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.591   0.420  XLXI_2/blue_out (XLXI_2/blue_out)
+     OBUF:I->O                 3.272          VGA_BLUE_OBUF (VGA_BLUE)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.49 secs
+ 
+--> 
+
+Total memory usage is 4538700 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

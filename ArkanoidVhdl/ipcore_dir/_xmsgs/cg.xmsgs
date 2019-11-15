@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="172" delta="old" >Generating IP...
+</msg>
+
+<msg type="error" file="coreutil" num="0" delta="new" >ERROR:sim - Unable to find G:\Lab_VGA_GenImage\ANEXOS\memory_coe_pato_rl.coe
+   Coregen is looking for G:\Lab_VGA_GenImage\ANEXOS\memory_coe_pato_rl.coe
+ERROR:sim - Unable to find G:\Lab_VGA_GenImage\ANEXOS\memory_coe_pato_rl.coe
+   Coregen is looking for G:\Lab_VGA_GenImage\ANEXOS\memory_coe_pato_rl.coe
+ERROR:sim:781 - An invalid core configuration has been detected during
+   Customization. Core parameters will be reset to their default values.
+</msg>
+
+<msg type="warning" file="coreutil" num="0" delta="new" >WARNING:sim:192 - Xco Parameter changed from (Component_Name,mymemory) to
+   (Component_Name,blk_mem_gen_v4_3) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Memory_Type,Single_Port_ROM) to
+   (Memory_Type,Single_Port_RAM) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Write_Width_A,3) to
+   (Write_Width_A,16) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Write_Depth_A,32256) to
+   (Write_Depth_A,16) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Read_Width_A,3) to
+   (Read_Width_A,16) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Write_Width_B,3) to
+   (Write_Width_B,16) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Read_Width_B,3) to
+   (Read_Width_B,16) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Load_Init_File,true) to
+   (Load_Init_File,false) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from
+   (Coe_File,G:\Lab_VGA_GenImage\ANEXOS\memory_coe_pato_rl.coe) to
+   (Coe_File,no_coe_file_loaded) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Port_A_Write_Rate,0) to
+   (Port_A_Write_Rate,50) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Port_B_Clock,0) to
+   (Port_B_Clock,100) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Port_B_Write_Rate,0) to
+   (Port_B_Write_Rate,50) during Recustomization.
+WARNING:sim:192 - Xco Parameter changed from (Port_B_Enable_Rate,0) to
+   (Port_B_Enable_Rate,100) during Recustomization.
+</msg>
+
+</messages>
+
